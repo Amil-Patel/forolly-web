@@ -1,0 +1,27 @@
+.prod-add-btn {
+    background-color: white !important;
+}
+
+h1 {
+    color: red;
+}
+
+.active-button {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.7px;
+    background-color: green;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 6px;
+}
+
+.inactive-button {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.7px;
+    background-color: rgb(214, 43, 43);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 6px;
+}

@@ -1,0 +1,321 @@
+.about-img {
+    height: 440px;
+}
+
+.history-right-side {
+    background-image: url('../Assets/images/strawberry.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.about-text {
+    color: #310505;
+    font-family: 'Merienda', handwriting;
+    font-size: 19px;
+}
+
+.about-head {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 1px;
+    color: #DF1D23;
+}
+
+.about-brd {
+    border-bottom: 3px solid #DF1D23;
+}
+
+.about-para {
+    color: #310505;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 1.6em;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.about-para span {
+    color: #008080;
+}
+
+/****************** ABOUT US SECTION END ******************/
+
+/******************** WHY CHOOSE US START ********************/
+
+.choose-bg {
+    background-color: #310505;
+}
+
+.serv-text {
+    color: #310505 !important;
+    font-family: 'Merienda', handwriting;
+    font-size: 19px;
+    line-height: 1.7em;
+    font-weight: 500;
+}
+
+.choose-head {
+    color: #DF1D23;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.chose-main {
+    display: flex;
+}
+
+.choose {
+    display: flex;
+    padding: 40px 0px 0px 20px;
+}
+
+.choose-head span {
+    border-bottom: 3px solid #DF1D23;
+}
+
+.choose-icon {
+    opacity: 1;
+    animation: fadeTop 1s cubic-bezier(.77, 0, .175, 1) 1;
+    font-size: 70px;
+    color: #5a3737;
+    font-family: ETmodules !important;
+    font-weight: 400 !important;
+}
+
+.choose-info {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 25px;
+    color: #FFFFFF !important;
+    line-height: 1em;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .choose-icon {
+        font-size: 40px;
+    }
+
+    .choose-main {
+        display: block;
+    }
+
+    .choose {
+        display: block;
+        padding: 20px 0px 0px 40px;
+    }
+}
+
+/************ WHY CHOOSE US END ************/
+
+/************ THREE CARD START ************/
+
+.card-main {
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 300px;
+}
+
+.card-icon {
+    font-size: 68px;
+    color: #97161a;
+    font-family: FontAwesome !important;
+    font-weight: 900 !important;
+}
+
+.card-head {
+    font-size: 18px;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+}
+
+.card-para {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+/************ THREE CARD END ************/
+
+/************* POPULAR PRODUCTS START *************/
+
+.prod-bg {
+    background-color: #310505;
+    background-image: url('../Assets/images/popular-bg.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.popular-head {
+    color: #df1d23 !important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 1.7em;
+}
+
+.popular-para {
+    color: #d9d9d9 !important;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.popular-btn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: #000000 !important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px;
+    padding: 8px 20px;
+    width: 190px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    transition: all 0.2s linear 0s;
+}
+
+.popular-btn:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 30px;
+    border-radius: 0 50% 50% 0;
+    transform: scale(0, 1);
+    transform-origin: left center;
+    transition: all 0.2s linear 0s;
+}
+
+.popular-btn:hover {
+    text-indent: 30px;
+}
+
+.popular-btn:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
+}
+
+.four-card-main {
+    background-color: rgba(130, 72, 72, 0.72);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    border: 1px solid #FFFFFF;
+    padding: 15px 0px;
+    cursor: pointer ;
+}
+
+.four-card-head {
+    color: #FFFFFF;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin: 10px 0px;
+}
+
+.four-card-img {
+    width: 187px;
+    height: 187px;
+}
+
+/************* POPULAR PRODUCTS END *************/
+
+/************** TESTIMONIAL START **************/
+.testi-text {
+    color: #310505 !important;
+    font-family: 'MonteCarlo', handwriting;
+    font-size: 33px;
+}
+
+.testi-head {
+    color: #df1d23 !important;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.testi-para {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    color: #666;
+    background-color: #fff;
+    line-height: 1.7em;
+    font-weight: 500;
+}
+
+.testi-slider-main {
+    background-color: #7B1214;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgwLDAsMCwwLjA4KSIgaGVpZ2h0PSI4cHgiIHdpZHRoPSI4cHgiIHZpZXdCb3g9IjAgMCA4IDgiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjQiIGhlaWdodD0iNCIvPjwvc3ZnPg==');
+}
+
+.testi-slider-text {
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 47px;
+    line-height: 1.1em;
+    font-weight: 500;
+    color: white;
+    padding: 15px 0px;
+}
+
+.wrapper {
+    padding: 20px 0px;
+}
+
+.wrapper .item img {
+    text-align: center;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.wrapper .item img {
+    width: 170px;
+    height: 170px;
+}
+
+
+/************** TESTIMONIAL END **************/
+
+@media screen and (min-width:1024px) and (max-width:1024px) {
+    .card-main {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .testi-para {
+        padding: 0px 20px;
+    }
+
+    .card-main {
+        padding: 0px 10px;
+        width: auto;
+        height: auto;
+    }
+}

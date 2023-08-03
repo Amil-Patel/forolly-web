@@ -1,0 +1,99 @@
+.navbar-dark {
+    background-image: repeating-linear-gradient(60deg, #931518 0%, #851316 73%) !important;
+    z-index: 1;
+}
+
+.navbar-brand {
+    height: 80px;
+}
+
+.nav-link {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.active {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    opacity: 0.9;
+    transition: all .4s ease-in-out;
+}
+
+.nav-logo {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.cate-btn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: #871316 !important;
+    border-color: #E02B20;
+    border-radius: 100px;
+    border-width: 1px !important;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px;
+    width: 190px;
+    background-color: #FFFFFF;
+    transition: all 0.2s linear 0s;
+}
+
+.cate-btn:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 30px;
+    border-radius: 0 50% 50% 0;
+    transform: scale(0, 1);
+    transform-origin: left center;
+    transition: all 0.2s linear 0s;
+}
+
+.cate-btn:hover {
+    text-indent: 30px;
+}
+
+.cate-btn:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
+}
+
+.btn-icon {
+    display: none;
+}
+
+.cate-btn:hover {
+    background-color: white;
+}
+
+.cate-btn:hover .btn-icon {
+    display: inline-block;
+}
+
+/* Alert Box */
+
+.alert-main {
+    width: 30%;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 45%;
+    left: 35%;
+    display: none;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}

@@ -1,0 +1,183 @@
+.brand-table {
+    width: 83%;
+    float: right;
+}
+
+h1 {
+    color: white;
+}
+
+.delete-brand-btn {
+    background-color: transparent !important;
+    text-transform: capitalize !important;
+    text-decoration: underline !important;
+    color: blue !important;
+    margin-left: -9px !important;
+}
+
+.cate-main {
+    display: flex;
+    background-color: #212529;
+    margin-bottom: 10px;
+}
+
+.cate-head-main {
+    width: 100%;
+    text-align: center;
+}
+
+.cate-btn-main button {
+    background-color: white !important;
+}
+
+.dropdown-menu {
+    border: none;
+    background-color: black;
+    min-width: 20% !important;
+}
+
+.dropdown-menu li button {
+    color: white;
+}
+
+.brand-row th button {
+    display: none;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+.slash-btn {
+    border: none;
+    background: none;
+}
+
+.delete-btn {
+    color: blue;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    margin-left: -7px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+}
+
+.brand-row:hover button {
+    display: block;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 230px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000;
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,174 @@
+.footer-bg1 {
+    background-color: #F2EADE;
+}
+
+.foot1-head {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+}
+
+.foot1-para {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1.1px;
+    color: #666;
+    line-height: 1.7em;
+    padding: 0px 90px;
+}
+
+.foot1-btn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #bd0a01;
+    border-radius: 100px;
+    color: #000000 !important;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 700 !important;
+    width: 170px;
+    padding: 10px 0px;
+    margin-right: 100px;
+    transition: all 0.2s linear 0s;
+}
+
+.foot1-btn:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 30px;
+    border-radius: 0 50% 50% 0;
+    transform: scale(0, 1);
+    transform-origin: left center;
+    transition: all 0.2s linear 0s;
+}
+
+.foot1-btn:hover {
+    text-indent: 30px;
+}
+
+.foot1-btn:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
+}
+
+.footer2-bg {
+    background-color: #310505;
+    background-image: url('../Assets/images/footer-bg.png');
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+.footer2-img {
+    width: 100px;
+}
+
+.footer-col1-para {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    letter-spacing: 0.8px;
+    color: #FFFFFFDE;
+    line-height: 1.7em;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-icon {
+    height: 32px;
+    width: 32px;
+    text-decoration: none;
+    letter-spacing: 15px;
+    position: relative;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 25px;
+    line-height: 1.7em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footer-title-brd {
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.footer-links {
+    color: rgba(255, 255, 255, 0.87) !important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    cursor: pointer;
+    line-height: 2.7em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-contact-para {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    line-height: 1.3em;
+}
+
+.footer-contact-icon {
+    font-size: 29px;
+    font-family: Open Sans, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.footer-bg-white {
+    background-color: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: #310505;
+    padding-left: 0px;
+    width: 91%;
+}
+
+.footer-bg-white p {
+    color: #310505 !important;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-weight: 500;
+}
+
+.footer-bg-white input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #495057;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:430px) {
+    .foot1-para {
+        padding: 0px 20px;
+    }
+
+    .footer-bg-white {
+        width: 70%;
+    }
+}

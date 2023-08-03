@@ -1,0 +1,49 @@
+.offcanvas {
+    width: 17% !important;
+}
+
+.offcanvas-backdrop {
+    display: none !important;
+}
+
+.dash-link {
+    color: #fff !important;
+    font-weight: 100;
+}
+
+.dash-link:hover {
+    color: #cac6c6;
+}
+
+.offcanvas-body .active {
+    color: #cac6c6 !important;
+}
+
+.log-btn {
+    margin: 250px 0px 0px 12px;
+}
+
+.log-btn .log-btn-main {
+    color: white !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #403f40 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #310505;
+    border-radius: 5px;
+}

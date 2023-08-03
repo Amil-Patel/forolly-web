@@ -1,0 +1,110 @@
+.contact-bg {
+    background-image: url('../Assets/images/contact-bg.svg');
+    background-color: #F2EADE;
+}
+
+.contact-main {
+    padding: 100px 0px;
+}
+
+.cont-head {
+    color: rgba(0, 0, 0, 0.82) !important;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 1.2em;
+    padding: 0px 236px;
+}
+
+.cont-head span {
+    border-bottom: 3px solid #851418;
+    padding-bottom: 30px;
+}
+
+.cont-para {
+    color: rgba(0, 0, 0, 0.71) !important;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7em;
+    padding: 0px 62px;
+}
+
+.cont-form {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cont-info-main {
+    background-color: #901418;
+    border-radius: 10px 0px 00px 10px;
+    box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cont-info-head {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.con-loc-icon {
+    font-size: 25px;
+    font-family: FontAwesome !important;
+    font-weight: 900 !important;
+    margin-top: -16px;
+}
+
+.cont-loc-head {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 0%;
+}
+
+.con-loc-para {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+}
+
+.follow-text {
+    color: #000000;
+    font-family: 'Barlow', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cont-icons i {
+    background-color: #000000;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 0px;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width:1024px) {
+    .cont-head span {
+        border: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact-main {
+        padding: 50px 0px;
+    }
+
+    .cont-head {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cont-head {
+        padding: 0px 20px;
+    }
+
+    .cont-para {
+        padding: 0px 20px;
+    }
+}

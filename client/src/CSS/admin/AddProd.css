@@ -1,0 +1,57 @@
+.add-form-main {
+    width: 700px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.vew-data {
+    color: red;
+    border: 1px solid black;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.prodAddLoader {
+    position: absolute;
+    margin: -200px 0px 0px 0px !important;
+}
+
+.view-prod-table {
+    width: 200px;
+    padding: 10px 0px 10px 5px;
+    background-color: #F2F2F2 !important;
+}
+
+.view-prod-td {
+    padding: 0px 0px 0px 5px;
+    width: 200px;
+    background-color: #FFFFFF;
+}
+
+.btn-nutr{
+    background-color: white;
+    color: red;
+}
+.btn-nutr-edit {
+    background-color: white;
+    color: red;
+}
+
+.btn-nutr:hover {
+    background-color: white;
+    color: red;
+}
+
+.btn-nutr-edit {
+    background-color: white;
+    color: green;
+}
+
+.btn-nutr-edit:hover {
+    background-color: white;
+    color: green;
+}

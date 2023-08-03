@@ -1,0 +1,177 @@
+.about-history-bg {
+    background-image: url('../Assets/images/about-history-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 120px 190px;
+}
+
+.about-history-head {
+    color: #FFC107;
+    font-family: 'Bayon', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    letter-spacing: 7px;
+    line-height: 1.7em;
+}
+
+.about-history-para {
+    color: rgba(255, 255, 255, 0.81) !important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    font-weight: 500;
+    width: 400px;
+}
+
+/********** HISTORY SECTION START **********/
+.welcome-bg {
+    background-color: #F8F8F8;
+}
+
+.welcome-img {
+    height: 510px;
+}
+
+.welcome-para1 {
+    color: #000000 !important;
+    font-family: 'Merienda', handwriting;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.welcome-head {
+    color: #df1d23 !important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.welcome-head-brd {
+    border-bottom: 3px solid #df1d23;
+    padding-bottom: 15px;
+}
+
+.welcome-para2 {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    line-height: 1.7em;
+    font-weight: 500;
+    width: 430px;
+}
+
+/********** HISTORY SECTION END **********/
+
+/*********** CALL SECTION START ***********/
+
+.call-bg {
+    background-color: #310505;
+    border: 3px solid white;
+    padding: 10px 250px;
+    width: 80%;
+    margin-top: -50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.call-icon {
+    font-size: 55px;
+    color: #FFFFFF;
+    font-family: ETmodules !important;
+    font-weight: 400 !important;
+    padding-right: 20px;
+}
+
+.call-head {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    color: #df1d23 !important;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+
+.call-para {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #ffffff !important;
+}
+
+/*********** CALL SECTION END ***********/
+
+.about-head {
+    color: #310505 !important;
+    font-family: 'Alumni Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+}
+
+.about-para {
+    color: #310505 !important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.8em;
+    font-weight: 500;
+    width: 80%;
+    word-spacing: 3px;
+}
+
+.about-bg {
+    background-color: #F8F8F8;
+    padding-top: 10px;
+    border-radius: 0 50px 0 0;
+}
+
+.about-bg2 {
+    background-color: #F8F8F8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 0 50px;
+}
+
+@media screen and (max-width:768px) {
+    .call-bg {
+        padding: 0px 60px;
+        margin: 0px 100px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .about-history-bg {
+        padding: 50px 20px;
+        height: 350px;
+    }
+
+    .about-history-para {
+        padding: 0;
+    }
+
+    .welcome-img {
+        height: 300px;
+    }
+
+    .welcome-para2 {
+        width: auto;
+        padding: 0px 20px;
+    }
+
+    .call-bg {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .call-icon {
+        font-size: 40px;
+    }
+
+    .call-para {
+        font-size: 20px;
+    }
+
+    .about-history-para {
+        width: auto;
+    }
+}
